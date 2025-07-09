@@ -16,5 +16,3 @@ const { data: book } = await useAsyncData(() =>
     </div>
   </div>
 </template>
-
-

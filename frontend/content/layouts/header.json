@@ -6,13 +6,13 @@
   "center": {
     "text": [
       "Documentation",
-      "lorem",
+      "lecteur",
       "lorem",
       "lorem"
     ],
     "link": [
       "/docs",
-      "/",
+      "/lecteur",
       "/",
       "/"
     ]
