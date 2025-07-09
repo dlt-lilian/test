@@ -1,17 +1,11 @@
 <script setup lang="ts">
-import Text from "~/components/ui/Text.vue";
+
+import Header from "~/components/ui/layouts/Header.vue";
+import Footer from "~/components/ui/layouts/Footer.vue";
 </script>
 
 <template>
-  <div class="mx-10">
-  <header class="px-10 py-10">
-    <Text>Header</Text>
-  </header>
-
-  <slot />
-
-  <footer class="px-10 py-10">
-    <Text>Header</Text>
-  </footer>
-  </div>
+    <Header />
+      <slot />
+    <Footer />
 </template>

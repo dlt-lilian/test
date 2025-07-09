@@ -3,6 +3,6 @@
 
 <template>
   <NuxtLayout>
-    <NuxtPage />
+    <NuxtPage class="mx-32"/>
   </NuxtLayout>
 </template>

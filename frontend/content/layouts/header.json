@@ -1,0 +1,34 @@
+{
+  "logo": "/logo.png",
+  "title": "logo",
+  "link": "/",
+
+  "center": {
+    "text": [
+      "Documentation",
+      "lorem",
+      "lorem",
+      "lorem"
+    ],
+    "link": [
+      "/docs",
+      "/",
+      "/",
+      "/"
+    ]
+  },
+  "right": {
+    "text": [
+      "Documentation",
+      "lorem"
+    ],
+    "icon": [
+      "user",
+      "user"
+    ],
+    "link": [
+      "/docs",
+      "/"
+    ]
+  }
+}

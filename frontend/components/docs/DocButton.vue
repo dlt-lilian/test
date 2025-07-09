@@ -6,7 +6,7 @@ import Text from "~/components/ui/Text.vue";
 <template>
   <div class="grid grid-cols-2 gap-4">
     <Text as="h1" size="lg" weight="semibold" colFull="true">
-      Documentation - Composant Text
+      Documentation - Composant Button
     </Text>
     <!-- Couleurs -->
     <div class="space-y-2">
@@ -14,10 +14,10 @@ import Text from "~/components/ui/Text.vue";
         Couleurs :
       </Text>
       <div class="flex gap-4">
-        <Button variant="primary">Primary (default)</Button>
-        <Button variant="secondary">Secondary</Button>
-        <Button variant="danger">Danger</Button>
-        <Button variant="ghost">Ghost</Button>
+        <Button color="primary">Primary (default)</Button>
+        <Button color="secondary">Secondary</Button>
+        <Button color="danger">Danger</Button>
+        <Button color="ghost">Ghost</Button>
       </div>
     </div>
 

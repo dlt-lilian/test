@@ -3,7 +3,8 @@ export default defineNuxtConfig({
   compatibilityDate: '2025-05-15',
   devtools: { enabled: true },
   modules: [
-    '@nuxt/icon'
+    '@nuxt/icon',
+    '@nuxt/content'
   ],
 
   css: ['~/assets/css/main.css'],
@@ -18,7 +19,8 @@ export default defineNuxtConfig({
       'add': 'heroicons:plus',
       'delete': 'heroicons:trash',
       'setting': 'heroicons:cog-6-tooth',
-      'arrow': 'heroicons:arrow-long-right'
+      'arrow': 'heroicons:arrow-long-right',
+      'user': 'heroicons:user',
     }
   }
 })

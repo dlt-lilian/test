@@ -3,7 +3,7 @@ import { computed } from 'vue'
 
 // Définition des props avec leurs types et valeurs par défaut
 const props = defineProps({
-  variant: {
+  color: {
     type: String,
     default: 'primary',
     validator: (value) => ['primary', 'secondary', 'danger', 'ghost'].includes(value)
@@ -51,7 +51,7 @@ const buttonClasses = computed(() => {
     lg: 'px-6 py-3 text-lg'
   }
 
-  classes.push(variants[props.variant])
+  classes.push(variants[props.color])
   classes.push(sizes[props.size])
 
   if (props.fullWidth) {
