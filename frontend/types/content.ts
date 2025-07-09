@@ -31,4 +31,6 @@ export interface TypeContent {
     seo?: {
         title: string;
     };
+    pages: string[];
+
 }

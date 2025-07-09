@@ -5,7 +5,6 @@ import type { TypeContent } from "~/types/content";
 const { data: header } = await useAsyncData(() =>
     queryCollection('content').path('/layouts/header').first()
 ) as { data: Ref<TypeContent | null> };
-
 </script>
 
 <template>
