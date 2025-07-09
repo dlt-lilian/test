@@ -1,13 +1,13 @@
 {
   "left": {
     "text": [
-      "Documentation",
+      "lorem",
       "lorem",
       "lorem",
       "lorem"
     ],
     "link": [
-      "/docs",
+      "/=",
       "/",
       "/",
       "/"
@@ -16,13 +16,13 @@
 
   "center": {
     "text": [
-      "Documentation",
+      "lorem",
       "lorem",
       "lorem",
       "lorem"
     ],
     "link": [
-      "/docs",
+      "/=",
       "/",
       "/",
       "/"
@@ -31,13 +31,13 @@
 
   "right": {
     "text": [
-      "Documentation",
+      "lorem",
       "lorem",
       "lorem",
       "lorem"
     ],
     "link": [
-      "/docs",
+      "/=",
       "/",
       "/",
       "/"

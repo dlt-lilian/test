@@ -7,6 +7,11 @@ export interface TypeContent {
         link: string;
         image: string;
         logo: string;
+        left: {
+            text: string;
+            icon: string;
+            link: string;
+        }
         center: {
             text: string;
             icon: string;

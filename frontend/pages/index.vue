@@ -19,8 +19,8 @@ useSeoMeta({
     {{ home?.title }}
   </Text>
 
-  <Text>
-    {{ home?.body.text }}
+  <Text color="green" size="lg" weight="semibold" align="center">
+    {{ home?.description }}
   </Text>
   </div>
 </template>

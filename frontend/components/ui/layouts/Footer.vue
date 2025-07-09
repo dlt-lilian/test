@@ -13,9 +13,9 @@ const { data: footer } = await useAsyncData(() =>
     <!-- Navigation gauche -->
     <nav>
       <a
-          v-for="(text, index) in footer?.body.right.text"
+          v-for="(text, index) in footer?.body.left.text"
           :key="index"
-          :href="footer?.body.right.link[index]"
+          :href="footer?.body.left.link[index]"
           class="hover:text-blue-600 transition-colors"
       >
         <Text>{{ text }}</Text>
